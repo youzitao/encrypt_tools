@@ -1,0 +1,8 @@
+.git@#@git文件夹
+.gitignore@#@git忽略文件
+__pycache__@#@python运行过程文件夹
+*.log@#@以.log结尾的文件
+__init__.py@#@
+*.ui@#@pyqt5设计文件
+*.qrc@#@pyqt5设计文件
+@#@

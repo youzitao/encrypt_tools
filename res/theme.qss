@@ -1,0 +1,88 @@
+QWidget{
+    font: 9pt "幼圆"
+}
+
+QPushButton:hover {
+	padding-right:8px;
+	padding-bottom:8px;
+}
+
+QTabBar::tab:hover {
+	background-color: rgb(161, 241, 241);
+	padding-right:8px;
+	padding-bottom:8px
+}
+
+QTabBar::tab:selected {
+	background-color: rgb(161, 241, 241);
+}
+
+
+QToolBox::tab {
+	background-color: rgb(134, 229, 185);
+	border-radius:2px;
+	border :0.5px none black;
+}
+
+QTextEdit {
+    border: 0.5px solid #A0A0A0; /* 边框宽度为1px，颜色为#A0A0A0 */
+	border-radius: 3px; /* 边框圆角 */
+	padding-left: 5px; /* 文本距离左边界有5px */
+	background-color: #F2F2F2; /* 背景颜色 */
+	color: #000000; /* 文本颜色 */
+	selection-background-color: #A0A0A0; /* 选中文本的背景颜色 */
+	selection-color: #F2F2F2; /* 选中文本的颜色 */
+	font-family: "Microsoft YaHei"; /* 文本字体族 */
+	font-size: 9pt; /* 文本字体大小 */
+}
+
+QLineEdit, QSpinBox {
+	border: 0.5px solid #A0A0A0; /* 边框宽度为1px，颜色为#A0A0A0 */
+	border-radius: 3px; /* 边框圆角 */
+	padding-left: 5px; /* 文本距离左边界有5px */
+	background-color: #F2F2F2; /* 背景颜色 */
+	color: #000000; /* 文本颜色 */
+	selection-background-color: #A0A0A0; /* 选中文本的背景颜色 */
+	selection-color: #F2F2F2; /* 选中文本的颜色 */
+	font-family: "Microsoft YaHei"; /* 文本字体族 */
+	font-size: 9pt; /* 文本字体大小 */
+}
+
+QLineEdit:hover { /* 鼠标悬浮在QLineEdit时的状态 */
+	border: 1px solid #298DFF;
+	border-radius: 3px;
+	background-color: #F2F2F2;
+	color: #298DFF;
+	selection-background-color: #298DFF;
+	selection-color: #F2F2F2;
+}
+
+QLineEdit[echoMode="2"] { /* QLineEdit有输入掩码时的状态 */
+	lineedit-password-character: 9679;
+	lineedit-password-mask-delay: 2000;
+}
+
+QLineEdit:disabled { /* QLineEdit在禁用时的状态 */
+	border: 1px solid #CDCDCD;
+	color: #B4B4B4;
+}
+
+QLineEdit:read-only { /* QLineEdit在只读时的状态 */
+
+}
+
+QSpinBox:hover { /* 鼠标悬浮在QLineEdit时的状态 */
+	border: 1px solid #298DFF;
+	border-radius: 3px;
+	background-color: #F2F2F2;
+	color: #298DFF;
+	selection-background-color: #298DFF;
+	selection-color: #F2F2F2;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    border-radius: 3px;
+    padding: 0 3px;
+    background-color: lightblue;
+}

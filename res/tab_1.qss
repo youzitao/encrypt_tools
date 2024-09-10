@@ -1,0 +1,30 @@
+QWidget{
+    font: 9pt "幼圆";
+}
+
+QPushButton:hover {
+	padding-right:8px;
+	padding-bottom:8px;
+}
+
+#search_btn, #refash_btn, #onekey_btn, #threshold_ico, #sbox_threshold_btn, #interval_ico {
+	border:none;
+}
+
+#frame_search {
+	border :1px solid lightgrey;
+	border-radius:12px;
+
+}
+
+#cb_table_headres {
+	border :none;
+	border-radius:12px;
+}
+
+#onekey_btn, #download_btn, #rcallback_btn, #delete_btn, #add1_btn, #reduce1_btn, #set_address_btn, #new_secretkey_btn {
+    background-color: rgb(199, 237, 204);
+    border :1px solid lightgrey;
+    border-radius:5px;
+    font: 8pt "幼圆";
+}
